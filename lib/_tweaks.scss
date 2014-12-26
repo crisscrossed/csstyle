@@ -1,0 +1,45 @@
+
+@include tweak(x-large) {
+  font-size: 1.4rem;
+}
+
+@include tweak(large) {
+  font-size: 1.2rem;
+}
+
+@include tweak(small) {
+  font-size: 0.8rem;
+}
+
+@include tweak(x-small) {
+  font-size: 0.6rem;
+}
+
+@include tweak(center) {
+  text-align: center;
+}
+
+@include tweak(color1) {
+  color: $main-color;
+}
+
+@include tweak(color2) {
+  color: $secondary-color;
+}
+
+@include tweak(bg-color1) {
+  background-color: $main-color;
+}
+
+@include tweak(bg-color2) {
+  background-color: $secondary-color;
+}
+
+@include tweak(rounded) {
+  border-radius: 10px;
+}
+
+@include tweak(glass) {
+  box-shadow: inset 0 0 6px rgba(0,0,0,.8),
+              inset 0 9px 1px rgba(0,0,0,.1);
+}

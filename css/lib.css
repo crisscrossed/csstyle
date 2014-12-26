@@ -1,0 +1,201 @@
+/* line 73, ../csstyle.scss */
+#csstyle .\+x-large {
+  font-size: 1.4rem; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+large {
+  font-size: 1.2rem; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+small {
+  font-size: 0.8rem; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+x-small {
+  font-size: 0.6rem; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+center {
+  text-align: center; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+color1 {
+  color: #018DD8; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+color2 {
+  color: #e5790c; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+bg-color1 {
+  background-color: #018DD8; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+bg-color2 {
+  background-color: #e5790c; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+rounded {
+  border-radius: 10px; }
+
+/* line 73, ../csstyle.scss */
+#csstyle .\+glass {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8), inset 0 9px 1px rgba(0, 0, 0, 0.1); }
+
+/* line 4, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0px 3px 0px 3px;
+  border: none;
+  border-right: none;
+  line-height: 26px; }
+/* line 26, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li:first-child {
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0; }
+/* line 32, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li:last-child {
+  border-right: none;
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
+/* line 39, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li.active {
+  background: #e5790c; }
+/* line 41, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li.active > a {
+  cursor: default;
+  color: #fff;
+  padding: 3px 2px;
+  cursor: default; }
+/* line 48, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li.active:hover {
+  background: #018DD8;
+  cursor: default; }
+/* line 53, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li > a {
+  color: #494949;
+  text-decoration: none;
+  font-size: 16px; }
+/* line 59, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li:hover {
+  background: #018DD8; }
+/* line 63, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li ul {
+  margin-bottom: 0; }
+/* line 67, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li a:hover {
+  color: #fff; }
+/* line 71, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li > a:first-child {
+  position: relative;
+  padding: 0 10px;
+  display: block;
+  text-decoration: none; }
+/* line 78, ../lib/_navigation.scss */
+.navigation-1 .nav-bubble > li > input {
+  margin: 0 10px; }
+/* line 82, ../lib/_navigation.scss */
+.navigation-1.\--pale .nav-bubble > li.active {
+  background: #999999; }
+
+/* line 2, ../lib/_image_round.scss */
+.img-round img {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+  /* line 18, ../csstyle.scss */
+  .img-round img.\--large {
+    width: 150px;
+    height: 150px; }
+  /* line 18, ../csstyle.scss */
+  .img-round img.\--medium {
+    width: 100px;
+    height: 100px; }
+  /* line 18, ../csstyle.scss */
+  .img-round img.\--small {
+    width: 50px;
+    height: 50px; }
+
+/* line 2, ../lib/_image_frame.scss */
+.img-frame img {
+  padding: 5px;
+  border: solid 1px #EFEFEF; }
+
+/* line 10, ../csstyle.scss */
+.shape {
+  padding: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #EEE;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: auto; }
+  /* line 18, ../csstyle.scss */
+  .shape.\--shadow {
+    -webkit-box-shadow: 0px 1px 1px #B4B4B4;
+    -moz-box-shadow: 0px 1px 1px #b4b4b4;
+    box-shadow: 0px 1px 1px #B4B4B4; }
+  /* line 18, ../csstyle.scss */
+  .shape.\--bright {
+    color: #ffffff; }
+  /* line 19, ../lib/_shape.scss */
+  .shape p, .shape ol, .shape ul {
+    margin-bottom: 0px; }
+
+/* line 3, ../lib/_tags.scss */
+.tagging dl {
+  display: block;
+  width: auto;
+  overflow: hidden;
+  padding-top: 4px;
+  margin: 14px 0 18px -9px;
+  font-size: 0.9rem; }
+/* line 12, ../lib/_tags.scss */
+.tagging dl dt, .tagging dl dd {
+  float: left;
+  display: inline;
+  margin-left: 9px;
+  margin-bottom: 4px; }
+/* line 19, ../lib/_tags.scss */
+.tagging dl dt {
+  color: #999999;
+  font-weight: 400; }
+/* line 24, ../lib/_tags.scss */
+.tagging dl dd a {
+  background: #999999;
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  border-radius: 1000px;
+  padding: 3px 9px;
+  font-size: 12px; }
+/* line 37, ../lib/_tags.scss */
+.tagging dl dd a:hover {
+  font-weight: 400;
+  background: #018DD8;
+  color: #fff;
+  cursor: default; }

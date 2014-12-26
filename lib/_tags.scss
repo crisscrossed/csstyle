@@ -1,0 +1,43 @@
+@include component(tagging) {
+
+  dl {
+    display:block;
+    width:auto;
+    overflow:hidden;
+    padding-top:4px;
+    margin:14px 0 18px -9px;
+    font-size: 0.9rem;
+  }
+
+  dl dt,dl dd {
+    float:left;
+    display: inline;
+    margin-left: 9px;
+    margin-bottom: 4px;
+  }
+
+  dl dt {
+    color: #999999;
+    font-weight: 400;
+  }
+
+  dl dd a {
+    background:#999999;
+    color:#fff;
+    text-decoration:none;
+    -webkit-border-radius:1000px;
+    -moz-border-radius:1000px;
+    -ms-border-radius:1000px;
+    -o-border-radius:1000px;
+    border-radius:1000px;
+    padding:3px 9px;
+    font-size: 12px;
+  }
+
+  dl dd a:hover {
+    font-weight:400;
+    background: $main-color;
+    color:#fff;
+    cursor:default;
+  }
+}
