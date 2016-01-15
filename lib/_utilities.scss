@@ -1,0 +1,13 @@
+@include component(util) {
+  .centered {
+    text-align: center;
+    }
+
+  .spacetop {
+    padding-top: 3em;
+    }
+
+  .spacebottom {
+    padding-bottom: 3em;
+  }
+}
