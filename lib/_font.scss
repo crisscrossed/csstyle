@@ -1,6 +1,3 @@
-$black-font: rgba(0, 0, 0, 0.8);
-$white-bg: rgb(255, 255, 255);
-$grey-on-white-font: #cccccc;
 
 @include component(font) {
   .white-black {

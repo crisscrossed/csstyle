@@ -19,22 +19,6 @@
   text-align: center;
 }
 
-@include tweak(color1) {
-  color: $main-color;
-}
-
-@include tweak(color2) {
-  color: $secondary-color;
-}
-
-@include tweak(bg-color1) {
-  background-color: $main-color;
-}
-
-@include tweak(bg-color2) {
-  background-color: $secondary-color;
-}
-
 @include tweak(rounded) {
   border-radius: 10px;
 }
