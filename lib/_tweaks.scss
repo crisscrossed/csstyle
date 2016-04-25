@@ -1,4 +1,17 @@
 
+@include tweak(spacetop) {
+  padding-top: 3em;
+}
+
+  @include tweak(spacebottom) {
+  padding-bottom: 3em;
+}
+
+@include tweak(centered) {
+  text-align: center;
+  margin: 0 auto;
+}
+
 @include tweak(x-large) {
   font-size: 1.4rem;
 }
@@ -13,6 +26,10 @@
 
 @include tweak(x-small) {
   font-size: 0.6rem;
+}
+
+@include tweak(center) {
+  text-align: center;
 }
 
 @include tweak(center) {
