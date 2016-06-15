@@ -30,7 +30,7 @@ $csstyle-root-id: 'csstyle' !default;
 // components
 @mixin component($names...){
   #{_build_selector("." + $csstyle-component-symbol, $names)}{
-    @content;
+    @content
   }
 }
 
@@ -48,9 +48,6 @@ $csstyle-root-id: 'csstyle' !default;
 @mixin part($names...){
     // check if nested in an option
     $optionIndex: str-index(#{&}, "." + $csstyle-option-symbol);
-    @if str-index($csstyle-option-symbol, "\\") == 1 and $optionIndex == null {
-      $optionIndex: str-index(#{&}, "." + str-slice($csstyle-option-symbol, 2));
-    }
     $optionIndex: 0 !default;
     $optionIndex: $optionIndex - 1;
 
@@ -93,8 +90,6 @@ $csstyle-root-id: 'csstyle' !default;
 // locations
 // override components, parts, options, and tweaks
 @mixin location($names...){
-  @warn "locations will be deprecated soon. Please use components instead.";
-
   #{_build_selector("#" + $csstyle-root-id + " ." + $csstyle-location-symbol, $names)}{
     @content;
   }

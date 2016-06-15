@@ -36,7 +36,7 @@
     box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
   }
 
-  .nav-bubble > li.active { background: $main-color; }
+  .nav-bubble > li.active { background: $secondary-color; }
 
   .nav-bubble > li.active > a {
     cursor: default;
